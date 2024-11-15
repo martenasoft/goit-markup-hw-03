@@ -211,6 +211,9 @@ img {
 
 /* Section teem  */
 
+.section.teem .heading-two {
+    margin-bottom: 72px;
+}
 .ul-teem {
     margin-top: 80px;
 }
