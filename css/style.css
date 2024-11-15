@@ -17,11 +17,12 @@ img {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    padding: 0;
     white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
 }
 
 /* Paragraph */
@@ -203,12 +204,12 @@ img {
     margin-right: 24px;
 }
 
-.section-features .heading-three {
+.section-features .heading-three,
+.portfolio .heading-three {
     margin-bottom: 8px;
 }
 
-
-    /* Section teem  */
+/* Section teem  */
 
 .ul-teem {
     margin-top: 80px;
