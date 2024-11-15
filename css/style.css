@@ -204,7 +204,8 @@ img {
     margin-right: 24px;
 }
 
-.section-features .heading-three {
+.section.features .heading-three,
+.section.portfolio .heading-three {
     margin-bottom: 8px;
 }
 
@@ -241,7 +242,7 @@ img {
 
 /* Section Portfolio  */
 
-.portfolio .heading-two {
+.section.portfolio .heading-two {
     margin-bottom: 72px;
 }
 
