@@ -21,9 +21,8 @@ img {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-    white-space: nowrap; /* Для предотвращения переноса текста */
+    white-space: nowrap;
 }
-
 
 /* Paragraph */
 .paragraph {
@@ -109,7 +108,7 @@ img {
     padding: 24px 0;
 }
 
-.ul-nav .list-item, .ul-address  .list-item {
+.ul-nav .list-item, .ul-address .list-item {
     margin-right: 40px;
 }
 
@@ -158,7 +157,6 @@ img {
     margin-bottom: 8px;
 }
 
-
 .heading-three {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -167,7 +165,6 @@ img {
     letter-spacing: 0.02em;
     display: block;
 }
-
 
 .btn-big-default {
     background: #4D5AE5;
@@ -196,21 +193,22 @@ img {
     color: white;
 }
 
-/* Section ul-features  */
+/* Section features  */
 
-.ul-features .list-item:first-child {
-    width: calc((100% - 72px) / 4);
+.ul-features .list-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
+
 .ul-features .list-item {
     margin-right: 24px;
 }
 
-.section-features .container {
-    padding: 123px 0 123px 0;
+.section-features .heading-three {
+    margin-bottom: 8px;
 }
 
 
-/* Section teem  */
+    /* Section teem  */
 
 .ul-teem {
     margin-top: 80px;
@@ -221,11 +219,6 @@ img {
     margin-right: 24px;
     background: #ffffff;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-}
-
-.ul-teem li:last-child,
-.ul-teem .list-item:last-child {
-    margin-right: 0;
 }
 
 .team-body {
@@ -248,7 +241,7 @@ img {
 
 /* Section Portfolio  */
 
-.portfolio .heading-two {
+.section.portfolio .heading-two {
     margin-bottom: 72px;
 }
 
@@ -279,12 +272,12 @@ img {
     margin-bottom: 8px;
 }
 
-footer  {
+footer {
     padding: 100px 0 100px;
 }
 
 a.logo.bottom {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -292,6 +285,15 @@ a.logo.bottom {
     max-width: 264px;
     color: #F4F4FD;
 }
+
+.ul-nav .list-item:last-child,
+.ul-address .list-item:last-child,
+.ul-teem .list-item:last-child,
+.ul-features .list-item:last-child,
+.ul-portfolio .list-item:last-child {
+    margin-right: 0;
+}
+
 
 
 
