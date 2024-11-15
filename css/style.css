@@ -26,6 +26,7 @@ img {
 }
 
 /* Paragraph */
+
 .paragraph {
     color: #434455;
     line-height: 1.5;
@@ -36,8 +37,8 @@ img {
     letter-spacing: 0.02em;
 }
 
-
 /* Flex */
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -67,6 +68,7 @@ img {
 }
 
 /* Header */
+
 .header-top {
     padding: 24px 156px 24px;
     border-bottom: 1px solid #e7e9fc;
@@ -96,8 +98,8 @@ img {
     color: #f4f4fd;
 }
 
-
 /* Nav link */
+
 .nav-link {
     font-size: 16px;
     font-weight: 500;
@@ -214,6 +216,7 @@ img {
 .section.teem .heading-two {
     margin-bottom: 72px;
 }
+
 .ul-teem {
     margin-top: 80px;
 }
